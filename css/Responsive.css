@@ -1,37 +1,39 @@
 @media (max-width: 640px) { 
+    /* ------------------------------------------------------------index */
     .Index{
+        position: absolute;
         background-image: url("../img/my\ img\ 2.jpg");
         width: 100%;
-        height: 660px;
+        height: 150%;
  }
  .trans{
-    height: 660px;
+    height: 100%;
 }
  .Index-headTitle-1{
-    font-size: 20px;
+    font-size: 70%;
     margin-top: 100%;
 }
 .Index-headTitle-2{
-    font-size: 26px;
+    font-size: 200%;
 }
 .Index-subTitle{
     font-size: 15px;
 }
 .Index-p-tag{
     line-height: 15px;
-    font-size: 10px;
-    width: 90%;
+    font-size: 80%;
+    width: 80%;
 }
 .Index-circle{  
     position: fixed;
-    top: 7%;
-    left: 20%;
+    top: 20%;
+    left: 70%;
     width: 300px;
     height: 300px;
 }
 .index-ul{
-    top: 9%;
-    left: 20%;
+    top: 25%;
+    left: 75%;
     font-size: 10px;
 }
 .index-ul button{
@@ -52,15 +54,9 @@
     font-size: 10px;
   }
   .insta ,.linkedin ,.github {
-    position: absolute;
     width: 40px;
     height: 40px;
     font-size: 25px;
-    color: white;
-    border: 2px solid white;
-    border-radius: 50px;
-    text-align: center;
-    align-content: center;
     margin-left: 30px;
     margin-top: 20px;
 }
@@ -75,16 +71,80 @@
     margin-left:13%;
 }
 .navbar{
-    position: fixed;
-    top: 12%;
-    left: 20%;
+    top: 37%;
+    left: 75%;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    color: white;
-    justify-content: center;
     font-size: 35px;
-    z-index: 1000;
-    cursor: pointer;
 }
+  /* ------------------------------------------------------------skills */
+  .SKILLS{
+    position: absolute;
+    height: 100%;
+    margin-top: 150%;
+}
+.skills-container .circle{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.skills-container{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0%;
+    margin-top: -15px;
+}
+#con-left{
+display: none;
+}
+#con-right{
+display: none;
+}
+   /* -----------------------------------------------------------------------------education */
+.EDUCATION{
+    position: absolute;
+    margin-top: 500%;
+    width: 100%;
+    height: 650px;
+}
+.skills-taps{
+    display: block;
+}
+  /* ----------------------------------------------------------------------------------project */
+  .project{
+    position: absolute;
+    margin-top: 730%;
+    width: 100%;
+    height: 650px;
+}
+.carousel-inner img{
+    width: 100px;
+    height: 350px;
+}
+    /* ----------------------------------------------------------------------------------contact */
+    .CONTACT{
+        position: absolute;
+        margin-top: 830%;
+        color: white;
+        width: 100%;
+        height: 200%;
+    }
+    .contact-tap{
+           margin-left: 10%;
+       }
+    .contact-details{
+        margin-top: 100px;
+        margin-left: 20%;
+    }
+    /* -----------------------------------------------------------------------------------footer */
+    .endline{
+        position: absolute;
+        margin-top: 1000%;
+
+
+    }
 }
