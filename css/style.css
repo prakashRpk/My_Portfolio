@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{font-family: glacial-indifference;
+    background-color: #21283a;
+    overflow-x:hidden;
+}
+.Index{
+    background-image: url("../img/Prakash\ R-4.png.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1386px;
+    height: 650px;
+    color: white;
+}
+.trans{
+    background-color: rgba(0, 0, 0, 0.473);
+    height: 650px;
+    z-index: 2;
+
+}
+.Index-headTitle-1{
+    font-size: 56px;
+    margin-top: 13%;
+    margin-left: 8%;
+    font-family: Maharlika-Regular;
+}
+.Index-headTitle-2{
+    font-size: 56px;
+    margin-left: 8%;
+    font-family: Maharlika-Regular;
+}
+.Index-subTitle{
+    margin-top: 20px;
+    margin-left: 8%;
+    font-size: 25px;
+    font-family: Maharlika-Regular;
+}
+.Index-p-tag{
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 8%;
+    width: 60%;
+}
+.Index-circle{  
+    position: fixed;
+    top: 25%;
+    left: 85%;
+    width: 400px;
+    height: 400px;
+    background-color:#21283a;
+    border-radius: 50%;
+    /* box-shadow: -10px 0px 36px 11px rgba(0,0,0,0.75); */
+    z-index: 1000;
+}
+.index-ul{
+    position: fixed;
+    top: 35%;
+    left: 88%;
+    z-index: 10000;
+}
+.index-ul li{
+    margin-top: 20px;
+    list-style: none;
+    cursor: pointer;
+    padding: 0% 10px;
+}
+.index-ul li a{
+    text-decoration: none;
+    color: white;
+}
+.index-ul li:hover{
+   color: white;
+   border-left: 5px solid white;
+   border-right: 5px solid white ;
+   border-radius: 50px;
+   padding: 0% 10px;
+   background-color: black;
+}
+.index-ul button{
+    position: absolute;
+    padding: 10px 40px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    top: 250px;
+    left: -60px;  
+}
+.box1 {
+    width: 250px;
+    margin: 50px auto;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 55%;
+    z-index: 1;
+  }
+  .sb7:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid white;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    border-bottom: 10px solid transparent;
+    left: 15px;
+    top: 40px;
+    z-index: 1;
+  }
+  .sb7 a{
+    text-decoration: none;
+    color: black;
+  }
+  .download{
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 13px;
+    border-left: 5px solid black;
+  }
+.insta ,.linkedin ,.github {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+:where(.insta ,.linkedin ,.github):hover{
+    background-color: #21283a;
+    color: white;
+}
+.butten3{
+    width: 100px;
+    height: 100px;
+}
+.butten4{
+    margin-left: 5%;
+}
+.butten5{
+    margin-left:5%;
+}
+.navbar{
+    position: fixed;
+    top: 50%;
+    left: 85%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    font-size: 35px;
+    z-index: 1000;
+    cursor: pointer;
+}

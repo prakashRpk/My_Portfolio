@@ -1,0 +1,25 @@
+#map{
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 600px;
+    border-radius: 50px;
+    margin-top: -500px;
+    left: -80%;
+    z-index: 0;
+}
+#Close{
+    display: block;
+    position: absolute;
+    border: none;
+    color: black;
+    background-color: transparent;
+    font-size: 45px;
+    margin-top: -480px;
+    left: -80%;
+    z-index:10 ;
+
+}
+#map iframe{
+    border-radius: 50px;
+}
