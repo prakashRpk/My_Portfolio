@@ -1,0 +1,73 @@
+.project{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    width: 1366px;
+    height: 650px;
+    background-color: #21283a;
+}
+.project-taps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200%;
+    margin-left: 95%;
+    
+}
+.project-tap{
+    margin-top:150px ;
+    width: 220px;
+    height: 220px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    scroll-behavior:auto;
+    z-index: 2;
+}
+.project-tap video{
+    display: none;
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+    z-index: 3;
+}
+#con-left-pro{
+    position: absolute;
+    color: white;
+    margin-top: 14%;
+    left: 6%;
+    font-size: 65px;
+}
+#con-right-pro{
+    position: absolute;
+    color: white;
+    margin-top: 14%;
+    font-size: 65px;
+    left: 90%;
+
+}
+.scroll-con-pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+    overflow-x: auto;
+}
+.git{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.i{
+    background-color:pink;
+    height: 50px;
+    width: 50px;
+    margin-top: -50px;
+    margin-left: 120px;
+    border-radius: 50%;
+}
