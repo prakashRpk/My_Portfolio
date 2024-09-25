@@ -148,3 +148,227 @@ display: none;
 
     }
 }
+@media (max-width: 375px) { 
+    /* ------------------------------------------------------------index */
+    .Index{
+        position: absolute;
+        background-image: url("../img/my\ img\ 2.jpg");
+        width: 100%;
+        height: 100%;
+ }
+ .trans{
+    height: 100%;
+}
+ .Index-headTitle-1{
+    font-size: 80%;
+    margin-top: 80%;
+}
+.Index-headTitle-2{
+    font-size: 200%;
+}
+.Index-subTitle{
+    font-size: 15px;
+}
+.Index-p-tag{
+    line-height: 15px;
+    font-size: 60%;
+    width: 80%;
+}
+.Index-circle{  
+    position: fixed;
+    top: 15%;
+    left: 55%;
+    width: 300px;
+    height: 300px;
+}
+.index-ul{
+    top: 20%;
+    left: 55%;
+    font-size: 10px;
+}
+.index-ul button{
+    padding: 5px 20px;
+    top: 200px;
+    left: 10px;  
+}
+.box1 {
+    width: 150px;
+    padding: 5px;
+    top: 30px;
+  }
+  .sb7:before {
+    left: 10px;
+    top: 25px;
+  }
+  .sb7 a{
+    font-size: 10px;
+  }
+  .insta ,.linkedin ,.github {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.butten3{
+    width: 100px;
+    height: 100px;
+}
+.butten4{
+    margin-left: 13%;
+}
+.butten5{
+    margin-left:13%;
+}
+.navbar{
+    top: 28%;
+    left: 58%;
+    width: 10px;
+    height: 10px;
+    font-size: 35px;
+}
+  /* ------------------------------------------------------------skills */
+  .SKILLS{
+    position: absolute;
+    height: 100%;
+    margin-top: 150%;
+}
+.skills-container .circle{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.skills-container{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0%;
+    margin-top: -15px;
+}
+#con-left{
+display: none;
+}
+#con-right{
+display: none;
+}
+   /* -----------------------------------------------------------------------------education */
+.EDUCATION{
+    position: absolute;
+    margin-top: 650%;
+    width: 100%;
+    height: 650px;
+}
+.skills-taps{
+    display: block;
+}
+.container .card{
+    width: 350px;
+    height: 250px;
+}
+.container .card .imgBX{
+    top: 20px;
+    width: 250px;
+    height: 150px;
+}
+.container .card .content{
+    top: 200px;
+    height: 35px;
+}
+.container .card:hover{
+    height: 400px;
+}
+  /* ----------------------------------------------------------------------------------project */
+  .project{
+    position: absolute;
+    margin-top: 950%;
+    width: 100%;
+    height: 650px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 250px;
+}
+    /* ----------------------------------------------------------------------------------contact */
+    .CONTACT{
+        position: absolute;
+        margin-top: 1100%;
+        color: white;
+        width: 100%;
+        height: 200%;
+    }
+    .contact-tap{
+           margin-left: 10%;
+       }
+    .contact-details{
+        margin-top: 100px;
+        margin-left: 20%;
+    }
+    .contact-tap{
+        color: black;
+           width: 300px;
+           height: 350px;
+           margin-top: 80px;
+           margin-left: 50px;
+           background-color: white;
+           border-radius: 50px;
+       }
+       .contact-tap h1{
+        margin-top: 50px;
+    }
+    .contact-lable{
+        font-size: 15px;
+    }
+    .contact-lable label,.contact-input input{
+        margin-top: 20px;
+    }
+    .contact-lable label{
+        margin-left: 30px;
+    }
+    .contact-input{
+        margin-left: 20px;
+    }
+    .contact-input input{
+        margin-top: 15px;
+        padding-right: 10px;
+        padding: 2px 10px;
+        font-size: 15px;
+    }
+    .contact-input textarea{
+        margin-top: 20px;
+        padding-right: 10px;
+        padding: 2px 22px;
+        font-size: 15px;
+    }
+    :where(.Call,.Gmail,.Address){
+        background-color: white;
+        padding: 10px;
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+
+
+     }
+     :where(.Call,.Gmail,.Address):hover{
+         width: 250px;
+         
+     }
+     :where(.Call,.Gmail,.Address) a{
+        margin-left: 20px; 
+    }
+    #map{
+        height: 600px;
+        margin-top: -400px;
+    }
+    #Close{
+        margin-top: -380px;
+    
+    }
+    /* -----------------------------------------------------------------------------------footer */
+    .endline{
+        position: absolute;
+        margin-top: 1300%;
+    }
+}
