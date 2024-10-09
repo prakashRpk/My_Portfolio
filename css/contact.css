@@ -14,8 +14,8 @@
 .contact-tap{
  color: black;
     width: 400px;
-    height: 450px;
-    margin-top: 80px;
+    height: 480px;
+    margin-top: 70px;
     margin-left: 200px;
     background-color: white;
     border-radius: 50px;
@@ -47,14 +47,24 @@
     width: 100%;
     text-align: start;
 }
-.contact-input input,textarea{
+.contact-input input{
     margin-top: 30px;
     background-color: #21283a;
     outline: none;
     color: white;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
     padding-right: 100px;
-    padding: 7px 35px;
+    padding: 10px 2px 6px 6px; 
+    border: 1px solid #21283a ;
+}
+.contact-input textarea{
+    margin-top: 30px;
+    background-color: #21283a;
+    outline: none;
+    color: white;
+    border-radius: 20px 0 0 20px;
+    padding-right: 100px;
+    padding: 10px 20px 7px 7px; 
     border: none;
 }
 /* ____________________________________________________________________________________________________ */
@@ -98,4 +108,16 @@
     color: #21283a;
     margin-left: 3px;
     margin-top: 3px;
+}
+/* -----------------------------------------------------------massage-------------- */
+#massage{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    color: black;
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 100%;
+    border-radius: 20px;
 }

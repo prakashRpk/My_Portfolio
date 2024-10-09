@@ -171,3 +171,19 @@ body{font-family: glacial-indifference;
     z-index: 1000;
     cursor: pointer;
 }
+
+#video{
+    position: absolute;
+    right: 2000px;
+    top: -200px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 50px;
+}
+#video iframe{
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+    
+}

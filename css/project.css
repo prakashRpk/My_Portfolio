@@ -48,3 +48,11 @@
     padding-top: 100px;
     border-radius: 20px;
 }
+.btn-secondary{
+    background-color: transparent;
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: transparent;
+    border: none;
+}
