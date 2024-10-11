@@ -1,0 +1,45 @@
+.ABOUT{
+    width: 100%;
+    height: 650px;
+    color: white;
+    text-align: center;
+}
+.about-title{
+    padding-top:50px ;
+}
+.About-subTitle{
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: Maharlika-Regular;
+}
+.About-p-tag{
+    text-align: start;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 80%;
+}
+.ABOUT button{
+    position: absolute;
+    padding: 10px 40px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: -55px;
+    margin-left: 100px;
+}
+#video{
+    position: absolute;
+    right: 2000px;
+    top: 680px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 50px;
+}
+#video iframe{
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+    
+}

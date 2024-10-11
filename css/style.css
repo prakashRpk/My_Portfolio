@@ -82,15 +82,7 @@ body{font-family: glacial-indifference;
    padding: 0% 10px;
    background-color: black;
 }
-.index-ul button{
-    position: absolute;
-    padding: 10px 40px;
-    background-color: white;
-    border: none;
-    border-radius: 50px;
-    top: 250px;
-    left: -60px;  
-}
+
 .box1 {
     width: 250px;
     margin: 50px auto;
@@ -171,7 +163,6 @@ body{font-family: glacial-indifference;
     z-index: 1000;
     cursor: pointer;
 }
-
 #video{
     position: absolute;
     right: 2000px;
@@ -186,4 +177,10 @@ body{font-family: glacial-indifference;
     height: 600px;
     border-radius: 50px;
     
+}
+.fa-caret-left{
+    display: block;
+}
+.fa-bars{
+    display: none;
 }

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/Anonymous_emblem.svg.png">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -17,22 +18,24 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/scroll bar.css" />
     <link rel="stylesheet" href="css/skills.css" />
     <link rel="stylesheet" href="css/education.css" />
     <link rel="stylesheet" href="css/project.css" />
     <link rel="stylesheet" href="css/contact.css" />
-    <link rel="stylesheet" href="css/map.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/Responsive.css" />
     <title>PRAKASH</title>
   </head>
-  <body>
+  <body class="body">
     <div class="Index" id="INDEX">
       <div class="trans">
         <nav>
           <a class="butten3" href="https://www.instagram.com/prakash_rpk_yt/">
-            <i class="fa-brands fa-instagram insta"></i></a>
+            <i class="fa-brands fa-instagram insta"></i
+          ></a>
           <a class="butten4" href="https://www.linkedin.com/in/rpkprakash/"
             ><i class="fa-brands fa-linkedin-in linkedin"></i
           ></a>
@@ -44,73 +47,113 @@
         <h1 class="Index-headTitle-2">PRAKASH . R</h1>
         <h2 class="Index-subTitle">Aspiring Full-Stack Developer</h2>
         <p class="Index-p-tag">
-          I'm an aspiring full-stack developer passionate about creating
-          innovative websites and applications. With a strong foundation in both
-          front-end and back-end technologies, I aim to bring ideas to life
-          through seamless, user-friendly digital experiences. Currently, I am
-          honing my skills in HTML, CSS, JavaScript, and various backend
-          frameworks, with the goal of developing my own projects and
-          contributing to impactful tech solutions.
-        </p>
+         I'm an aspiring full-stack developer passionate about creating
+         innovative websites and applications. With a strong foundation in both
+         front-end and back-end technologies, I aim to bring ideas to life
+         through seamless, user-friendly digital experiences. Currently, I am
+         honing my skills in HTML, CSS, JavaScript, and various backend
+         frameworks, with the goal of developing my own projects and
+         contributing to impactful tech solutions.
+       </p>
         <div class="Index-circle" id="Index-circle"></div>
         <div class="navbar" onclick="hide()">
           <i class="fa-solid fa-caret-left"></i>
+          <i class="fa-solid fa-bars"></i>
         </div>
         <ul class="index-ul">
-          <button onclick="videoFun()">VIDEO</button>
-          <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/dd-OEqh0P8o?si=3ETSCF04uoev2Yxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-          <li><a href="#INDEX" accesskey="1" onclick="hide()" >HOME</a></li>
-          <li><a href="#SKILLS" onclick="start(),hide()"accesskey="2" >SKILLS</a></li>
-          <li><a href="#EDUCATION"accesskey="3" onclick="hide()">EDUCATION</a></li>
-          <li><a href="#project"accesskey="4" onclick="hide()">PROJECTS</a></li>
-          <li><a href="#CONTACT"accesskey="5" onclick="hide()">CONTACT</a></li>
+
+          <li><a href="#INDEX" accesskey="1" onclick="hide()">HOME</a></li>
+          <li><a href="#ABOUT" accesskey="2" onclick="hide()">ABOUT</a></li>
+          <li>
+            <a href="#SKILLS" onclick="start(),hide()" accesskey="3">SKILLS</a>
+          </li>
+          <li>
+            <a href="#EDUCATION" accesskey="4" onclick="hide()">EDUCATION</a>
+          </li>
+          <li>
+            <a href="#project" accesskey="5" onclick="hide()">PROJECTS</a>
+          </li>
+          <li><a href="#CONTACT" accesskey="6" onclick="hide()">CONTACT</a></li>
         </ul>
         <div class="box1 sb7">
-          <a href="pdf/blue professional modern CV resume.pdf">U Want my resume</a>
+          <a href="pdf/blue professional modern CV resume.pdf"
+            >U Want my resume</a
+          >
         </div>
       </div>
+    </div>
+    <div class="ABOUT" id="ABOUT">
+     <h1 class="about-title">ABOUT</h1>
+     <h2 class="About-subTitle">Hello everyone</h2>
+     <p class="About-p-tag">
+      
+      
+      
+      My name is Prakash, and I am an aspiring full-stack developer with a strong passion for creating innovative websites and applications. I'm passed a Bachelor of Computer Science at Mary Matha College of Arts and Science in Theni and I'm currently studing Master of Computer Applications at RVS Arts and Science in Coimbatore. <br><br>
+      
+      My journey in the tech world began with a fascination for how digital tools could bring ideas to life. Over the years, I've developed a solid foundation in both front-end and back-end technologies. My technical skills include HTML, CSS, JavaScript, and I have experience with programming languages like C and C++. I'm continuously learning and improving, currently working on mastering backend frameworks to build more complex and user-friendly applications. <br><br>
+      
+      In addition to coding, I have a keen interest in design, photo editing, and video editing. These creative pursuits complement my technical skills, allowing me to approach projects with a unique blend of creativity and functionality. <br> <br>
+      
+      I’m always looking for opportunities to apply what I’ve learned by developing my own projects or collaborating on exciting tech solutions. I’m eager to connect with like-minded professionals and contribute to impactful projects that make a difference. <br> <br>
+      
+      Thank you for your time, and I look forward to connecting with you all.
+    </p>
+    <button onclick="videoFun()">Self introduction</button>
+    <div id="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dd-OEqh0P8o?si=3ETSCF04uoev2Yxg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
     </div>
     <div class="SKILLS" id="SKILLS">
       <div>
         <h1 class="skill-head">skills</h1>
         <i id="con-left" class="fa-solid fa-angle-left"></i>
-        <i id="con-right" class="fa-solid fa-angle-right"></i> 
+        <i id="con-right" class="fa-solid fa-angle-right"></i>
         <div class="scroll-con" id="scroll-con">
-        <div class="skills-container">
-          <div class="circle" data-degree="80" data-color="white">
-            <h2 class="number">80<span>%</span></h2>
-            <h4>html</h4>
-          </div>
-          <div class="circle" data-degree="60" data-color="white">
-            <h2 class="number">60<span>%</span></h2>
-            <h4>css</h4>
-          </div>
-          <div class="circle" data-degree="40" data-color="white">
-            <h2 class="number">40<span>%</span></h2>
-            <h4>js</h4>
-          </div>
-          <div class="circle" data-degree="65" data-color="white">
-            <h2 class="number">65<span>%</span></h2>
-            <h4>C,C++</h4>
-          </div>
-          <div class="circle" data-degree="80" data-color="white">
-            <h2 class="number">80<span>%</span></h2>
-            <h4>MS office</h4>
-          </div>
-          <div class="circle" data-degree="80" data-color="white">
-            <h2 class="number">80<span>%</span></h2>
-            <h4>MS office</h4>
-          </div>
-          <div class="circle" data-degree="80" data-color="white">
-            <h2 class="number">80<span>%</span></h2>
-            <h4>MS office</h4>
-          </div>
-          <div class="circle" data-degree="80" data-color="white">
-            <h2 class="number">80<span>%</span></h2>
-            <h4>MS office</h4>
+          <div class="skills-container">
+            <div class="circle" data-degree="80" data-color="white">
+              <h2 class="number">80<span>%</span></h2>
+              <h4>html</h4>
+            </div>
+            <div class="circle" data-degree="60" data-color="white">
+              <h2 class="number">60<span>%</span></h2>
+              <h4>css</h4>
+            </div>
+            <div class="circle" data-degree="40" data-color="white">
+              <h2 class="number">40<span>%</span></h2>
+              <h4>js</h4>
+            </div>
+            <div class="circle" data-degree="65" data-color="white">
+              <h2 class="number">65<span>%</span></h2>
+              <h4>C,C++</h4>
+            </div>
+            <div class="circle" data-degree="80" data-color="white">
+              <h2 class="number">80<span>%</span></h2>
+              <h4>GitHub</h4>
+            </div>
+            <div class="circle" data-degree="80" data-color="white">
+              <h2 class="number">50<span>%</span></h2>
+              <h4>java</h4>
+            </div>
+            <div class="circle" data-degree="80" data-color="white">
+              <h2 class="number">50<span>%</span></h2>
+              <h4>SQL</h4>
+            </div>
+            <div class="circle" data-degree="80" data-color="white">
+              <h2 class="number">80<span>%</span></h2>
+              <h4>MS office</h4>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
     <div class="EDUCATION" id="EDUCATION">
@@ -125,9 +168,12 @@
               />
             </div>
             <div class="content">
-              <h2>mary matha</h2>
-              <p>mary matha college arts and scinece-theni <br> Bachelor of computer science <br> 2021-2024
-                </p>
+              <h2>MARY MATHA</h2>
+              <p>
+                mary matha college of arts and scinece-theni <br />
+                Bachelor of computer science <br />
+                2021-2024
+              </p>
               <a href="https://marymathacollege.edu.in/">more info</a>
             </div>
           </div>
@@ -143,7 +189,10 @@
             </div>
             <div class="content">
               <h2>RVS</h2>
-              <p>RVS arts and scinece-sulur <br> Master of Computer Application <br>2024-2027</p>
+              <p>
+                RVS college of arts and scinece-sulur <br />
+                Master of Computer Application <br />2024-2026
+              </p>
               <a href="https://rvscas.ac.in/">more info</a>
             </div>
           </div>
@@ -152,138 +201,352 @@
     </div>
     <div class="project" id="project">
       <h1 class="heading">PROJECTS</h1>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="5"
+            aria-label="Slide 6">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="6"
+            aria-label="Slide 7">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="7"
+            aria-label="Slide 8">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="8"
+            aria-label="Slide 9">
+          </button>
         </div>
         <div class="carousel-inner">
           <!-- ---------------------1------------------ -->
           <div class="carousel-item active">
-            <img src="img/ball moving.avif" class="d-block w-100" alt="...">
+            <img src="img/Bouncing Ball Animation.gif" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="live Output"
+                href="https://prakashrpk.github.io/Bouncing-Ball-Animation/"
+                ><i class="fa-brands fa-git-alt"></i
+              ></a>
 
-                <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="live Output"
-                href="https://prakashrpk.github.io/Ball_moving_X-axes_and_Y-axes/"><i class="fa-brands fa-git-alt"></i></a>
-              
-              <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Docmuent"
-              href="https://github.com/prakashRpk/Ball_moving_X-axes_and_Y-axes/blob/main/index.html"><i class="fa-solid fa-file-code"></i></a>
-              <h5>Ball Moving</h5>
-              <p>ball to move between two fixed positions on the x-axis and y-axis on the page.</p>
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Docmuent"
+                href="https://github.com/prakashRpk/Bouncing-Ball-Animation"
+                ><i class="fa-solid fa-file-code"></i
+              ></a>
+              <h5>Bouncing Ball Animation</h5>
+              <p>
+                ball to move between two fixed positions on the x-axis and
+                y-axis on the page.
+              </p>
             </div>
           </div>
           <!-- ---------------------2------------------ -->
           <div class="carousel-item">
-            <img src="img/balls moving.avif" class="d-block w-100" alt="...">
+            <img src="img/Bouncing Balls Simulation.gif" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="live Output"
+                href="https://prakashrpk.github.io/Bouncing-Balls-Simulation/"
+                ><i class="fa-brands fa-git-alt"></i
+              ></a>
 
-                <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="live Output"
-                href="https://prakashrpk.github.io/balls_move_randomly_within_that_area./"><i class="fa-brands fa-git-alt"></i></a>
-              
-              <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Docmuent"
-              href="https://github.com/prakashRpk/balls_move_randomly_within_that_area./blob/main/index.html"><i class="fa-solid fa-file-code"></i></a>
-              <h5>Balls Moving random place</h5>
-              <p>create number of balls within a defined area of the screen and make these  balls move randomly within that area.</p>
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Docmuent"
+                href="https://github.com/prakashRpk/Bouncing-Balls-Simulation"
+                ><i class="fa-solid fa-file-code"></i
+              ></a>
+              <h5>Bouncing Balls Simulation</h5>
+              <p>
+                create number of balls within a defined area of the screen and
+                make these balls move randomly within that area.
+              </p>
             </div>
           </div>
           <!-- ---------------------3------------------ -->
           <div class="carousel-item">
-            <img src="img/pac-man-pacman.webp" class="d-block w-100" alt="...">
+            <img
+              src="img/Pac-Man Animation.gif"
+              class="d-block w-100"
+              alt="..."
+            />
             <div class="carousel-caption d-none d-md-block">
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="live Output"
+                href="https://prakashrpk.github.io/Pac-Man-Animation/"
+                ><i class="fa-brands fa-git-alt"></i
+              ></a>
 
-                <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="live Output"
-                href="https://prakashrpk.github.io/pac-man-js-project/"><i class="fa-brands fa-git-alt"></i></a>
-              
-              <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Docmuent"
-              href="https://github.com/prakashRpk/pac-man-js-project/blob/main/index.html"><i class="fa-solid fa-file-code"></i></a>
-              <h5>PacMan moving</h5>
-              <p>displays PacMan and makes him move from one side of the screen to the other side.</p>
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Docmuent"
+                href="https://github.com/prakashRpk/Pac-Man-Animation"
+                ><i class="fa-solid fa-file-code"></i
+              ></a>
+              <h5>Pac-Man Animation</h5>
+              <p>
+                displays PacMan and makes him move from one side of the screen
+                to the other side.
+              </p>
             </div>
           </div>
-          <!-- ---------------------4------------------? -->
+          <!-- ---------------------4------------------ -->
           <div class="carousel-item">
-            <img src="img/pac-man-pacman.webp" class="d-block w-100" alt="...">
+            <img
+              src="img/Boston Top Earners.gif"
+              class="d-block w-100"
+              alt="..."
+            />
             <div class="carousel-caption d-none d-md-block">
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="live Output"
+                href="https://prakashrpk.github.io/Boston-Top-Earners/"
+                ><i class="fa-brands fa-git-alt"></i
+              ></a>
 
-                <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="live Output"
-                href="https://prakashrpk.github.io/pac-man-js-project/"><i class="fa-brands fa-git-alt"></i></a>
-              
-              <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Docmuent"
-              href="https://github.com/prakashRpk/pac-man-js-project/blob/main/index.html"><i class="fa-solid fa-file-code"></i></a>
-              <h5>PacMan moving</h5>
-              <p>displays PacMan and makes him move from one side of the screen to the other side.</p>
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Docmuent"
+                href="https://github.com/prakashRpk/Boston-Top-Earners"
+                ><i class="fa-solid fa-file-code"></i
+              ></a>
+              <h5>Boston Top Earners</h5>
+              <p>
+                display any employees who make a minimum of 200k(salaries) per year in Boston data.
+              </p>
             </div>
           </div>
-          <!-- ---------------------5------------------? -->
+          <!-- ---------------------5------------------ -->
           <div class="carousel-item">
-            <img src="img/pac-man-pacman.webp" class="d-block w-100" alt="...">
+            <img
+              src="img/Most Common Words Finder.gif"
+              class="d-block w-100"
+              alt="..."
+            />
             <div class="carousel-caption d-none d-md-block">
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="live Output"
+                href="https://prakashrpk.github.io/Most-Common-Words-Finder/"
+                ><i class="fa-brands fa-git-alt"></i
+              ></a>
 
-                <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="live Output"
-                href="https://prakashrpk.github.io/pac-man-js-project/"><i class="fa-brands fa-git-alt"></i></a>
-              
-              <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Docmuent"
-              href="https://github.com/prakashRpk/pac-man-js-project/blob/main/index.html"><i class="fa-solid fa-file-code"></i></a>
-              <h5>PacMan moving</h5>
-              <p>displays PacMan and makes him move from one side of the screen to the other side.</p>
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Docmuent"
+                href="https://github.com/prakashRpk/Most-Common-Words-Finder"
+                ><i class="fa-solid fa-file-code"></i
+              ></a>
+              <h5>Most Common Words Finder</h5>
+              <p>
+                the first three most common words that given in a  text.
+              </p>
             </div>
           </div>
           <!-- ---------------------6------------------ -->
           <div class="carousel-item">
-            <img src="img/week 5.png" class="d-block w-100" alt="...">
+            <img src="img/PacMan Bounce.gif"class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="live Output"
+                href="https://prakashrpk.github.io/PacMan-Bounce/"
+                ><i class="fa-brands fa-git-alt"></i
+              ></a>
 
-                <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="live Output"
-                href="https://prakashrpk.github.io/first_three_most_common_words/"><i class="fa-brands fa-git-alt"></i></a>
-              
-              <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Docmuent"
-              href="https://github.com/prakashRpk/first_three_most_common_words/blob/main/index.html"><i class="fa-solid fa-file-code"></i></a>
-              <h5>the first three most common words</h5>
-              <p>print  the first three most common words that given in a text.</p>
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Docmuent"
+                href="https://github.com/prakashRpk/PacMan-Bounce"
+                ><i class="fa-solid fa-file-code"></i
+              ></a>
+              <h5>PacMan Bounce</h5>
+              <p>
+                create a PacMan on demand (button click) and move these PacMan across the page.
+              </p>
             </div>
           </div>
           <!-- ---------------------7------------------ -->
           <div class="carousel-item">
-            <img src="img/week 6.png" class="d-block w-100" alt="...">
+            <img src="img/Eyeball Follower.gif" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="live Output"
+                href="https://prakashrpk.github.io/Eyeball-Follower/"
+                ><i class="fa-brands fa-git-alt"></i
+              ></a>
 
-                <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="live Output"
-                href="https://prakashrpk.github.io/create_a_PacMan_and_move_these_PacMan_across_the_page/"><i class="fa-brands fa-git-alt"></i></a>
-              
-              <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Docmuent"
-              href="https://github.com/prakashRpk/create_a_PacMan_and_move_these_PacMan_across_the_page/blob/main/index.html"><i class="fa-solid fa-file-code"></i></a>
-              <h5>multipule pacman moveing across the page</h5>
-              <p>create a PacMan on demand (button click) and move these PacMan across the page.</p>
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Docmuent"
+                href="https://github.com/prakashRpk/Eyeball-Follower"
+                ><i class="fa-solid fa-file-code"></i
+              ></a>
+              <h5>Eyeball Follower</h5>
+              <p>
+                add a two "eyeball" element and have that element follow the mouse position on the screen using the mouse events.
+              </p>
             </div>
           </div>
           <!-- ---------------------8------------------ -->
           <div class="carousel-item">
-            <img src="img/Valak - The Conjuring 2 by SamRAW08 on DeviantArt.jpeg" class="d-block w-100" alt="...">
+            <img
+              src="img/Mapbox Marker Movement.gif"
+              class="d-block w-100"
+              alt="..."
+            />
             <div class="carousel-caption d-none d-md-block">
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="live Output"
+                href="https://prakashrpk.github.io/Mapbox-Marker-Movement/"
+                ><i class="fa-brands fa-git-alt"></i
+              ></a>
 
-                <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="live Output"
-                href="https://prakashrpk.github.io/-eyeballs-_mouse_position_on_the_screen_using_the_mouse_events/"><i class="fa-brands fa-git-alt"></i></a>
-              
-              <a class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Docmuent"
-              href="https://github.com/prakashRpk/-eyeballs-_mouse_position_on_the_screen_using_the_mouse_events/blob/main/index.html"><i class="fa-solid fa-file-code"></i></a>
-              <h5>Eyeballs moving</h5>
-              <p>add a two "eyeball" element and have that element follow the mouse position on the screen using the mouse events.</p>
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Docmuent"
+                href="https://github.com/prakashRpk/Mapbox-Marker-Movement"
+                ><i class="fa-solid fa-file-code"></i
+              ></a>
+              <h5>Mapbox Marker Movement</h5>
+              <p>
+                create map use the mapboxgl library to add a marker to the map. Then, to move the marker on the map from one bus stop to the next.
+              </p>
+            </div>
+          </div>
+          <!-- ---------------------9------------------ -->
+          <div class="carousel-item">
+            <img
+              src="img/Tower of Hanoi Visualization.gif"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="live Output"
+                href="https://prakashrpk.github.io/Tower-of-Hanoi-Visualization/"
+                ><i class="fa-brands fa-git-alt"></i
+              ></a>
+
+              <a
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Docmuent"
+                href="https://github.com/prakashRpk/Tower-of-Hanoi-Visualization"
+                ><i class="fa-solid fa-file-code"></i
+              ></a>
+              <h5>Tower of Hanoi Visualization</h5>
+              <p>
+                the hanoi tower algorithm to add a custom number of disks to the tower using recursion function.
+              </p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -292,52 +555,91 @@
     <div class="CONTACT" id="CONTACT">
       <h1>CONTACT</h1>
 
-      <form class="contact-tap" action="https://formsubmit.co/prakashrprakashr127@gmail.com" method="POST">
-        <h1>Gmail massage</h1>
+      <form
+        class="contact-tap"
+        action="https://formsubmit.co/prakashrprakashr127@gmail.com"
+        method="POST"
+      >
+        <h1>Gmail message</h1>
 
-        <div class="contact-box" >
-        <div class="contact-lable">
-          <label for="">Name:</label>
-          <label for="">Gmail:</label>
-          <label for="">Subject:</label>
-          <label for="">massage:</label>  
+        <div class="contact-box">
+          <div class="contact-lable">
+            <label for="">Name:</label>
+            <label for="">Gmail:</label>
+            <label for="">Subject:</label>
+            <label for="">massage:</label>
+          </div>
+          <div class="contact-input">
+            <input type="text" name="name" required placeholder="name" />
+            <input type="email" name="email" placeholder="Email Address" />
+            <input type="text" name="subject" required placeholder="subject" />
+            <input type="hidden" name="_subject" value="New submission!" />
+            <textarea
+              name="massage"
+              required
+              placeholder="massage"
+              style="resize: none"
+            ></textarea>
+            <input type="hidden" name="_template" value="table" />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5500/My_Portfolio/index.html#CONTACT"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+          </div>
         </div>
-        <div class="contact-input">
-          <input type="text" name="name" required placeholder="name">
-          <input type="email" name="email" placeholder="Email Address">
-          <input type="text" name="subject" required placeholder="subject">
-          <input type="hidden" name="_subject" value="New submission!">
-          <textarea name="massage" required placeholder="massage"style="resize: none"></textarea>
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="http://127.0.0.1:5500/My_Portfolio/index.html#CONTACT">
-          <input type="hidden" name="_captcha" value="false">
-        </div>
-      </div>
-      <button type="submit" onclick="BtnMsg()">submit</button>
+        <button type="submit" onclick="BtnMsg()">submit</button>
       </form>
-      <div id="massage">
-        your mail is submited
-      </div>
+      <div id="message">your mail is submited</div>
       <div class="contact-details">
         <div class="Call">
-         <i class="fa-solid fa-phone"></i><a href="638-368-5305">6383685305</a>
+          <i class="fa-solid fa-phone"></i><a href="638-368-5305">6383685305</a>
         </div>
         <div class="Gmail">
-          <i class="fa-solid fa-envelope"></i><a href="mailto:prakashrprakashr127.gmail.com"><marquee behavior="" direction=""> prakashrprakashr127@gmail.com</marquee></a>
+          <i class="fa-solid fa-envelope"></i
+          ><a href="mailto:prakashrprakashr127.gmail.com"
+            ><marquee behavior="" direction="">
+              prakashrprakashr127@gmail.com</marquee
+            ></a
+          >
         </div>
         <div class="Address">
-          <i class="fa-solid fa-location-dot"></i><a id="Address" onclick="Address()"><marquee behavior="" direction=""> magendra varuman street, T.kallipatti, periyakulam, theni-605625</marquee></a>
+          <i class="fa-solid fa-location-dot"></i
+          ><a id="Address" onclick="Address()"
+            ><marquee behavior="" direction="">
+              magendra varuman street, T.kallipatti, periyakulam,
+              theni-605625</marquee
+            ></a
+          >
         </div>
       </div>
       <div id="map">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7855.927587119316!2d77.53744785445805!3d10.102049488265033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b076a18540f7a7b%3A0x1fadb367136bff4e!2sT.%20Kallipatti%2C%20Periyakulam%2C%20Tamil%20Nadu%20625605!5e0!3m2!1sen!2sin!4v1725104382862!5m2!1sen!2sin" width="99%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7855.927587119316!2d77.53744785445805!3d10.102049488265033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b076a18540f7a7b%3A0x1fadb367136bff4e!2sT.%20Kallipatti%2C%20Periyakulam%2C%20Tamil%20Nadu%20625605!5e0!3m2!1sen!2sin!4v1725104382862!5m2!1sen!2sin"
+          width="99%"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
-      <button id="Close" onclick="Close()"><i class="fa-solid fa-xmark"></i></button>
+      <button id="Close" onclick="Close()">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
     </div>
-    <footer>
-    </footer>
+    <footer></footer>
     <div class="endline">
-      <p> Icons By <a href="https://cdnjs.com/libraries/font-awesome">font-awesome</a>-Fonts By <a href="https://fonts.google.com/">google-fonts</a>-Templates By<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap</a></p>
+      <p>
+        Icons By
+        <a href="https://cdnjs.com/libraries/font-awesome">font-awesome</a
+        >-Fonts By
+        <a href="https://fonts.google.com/">google-fonts</a>-Templates By<a
+          href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+          >Bootstrap</a
+        >
+      </p>
     </div>
   </body>
   <div id="scroll-path"></div>
@@ -346,6 +648,15 @@
   <script src="js/scroll bar.js"></script>
   <script src="js/script.js"></script>
   <script src="js/map.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="js/responsive.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
 </html>

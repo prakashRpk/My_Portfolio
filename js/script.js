@@ -28,7 +28,7 @@ function CloseNav(){
     nav_item.style.transition="0.5s"
     nav_item.style.left="110%"
 }
-var msg=document.getElementById("massage")
+var msg=document.getElementById("message")
 function BtnMsg(){
     msg.style.marginLeft="70%"
     msg.style.transition="0.5s"
