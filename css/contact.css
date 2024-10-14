@@ -54,7 +54,7 @@
     color: white;
     border-radius: 20px 0 0 20px;
     padding-right: 100px;
-    padding: 10px 2px 6px 6px; 
+    padding: 10px 15px 6px 6px; 
     border: 1px solid #21283a ;
 }
 .contact-input textarea{
@@ -111,6 +111,7 @@
 }
 /* -----------------------------------------------------------message-------------- */
 #message{
+    display: none;
     position: absolute;
     background-color: white;
     width: 300px;

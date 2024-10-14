@@ -3,7 +3,7 @@ var navbar=document.querySelector(".navbar")
 var nav_item=document.querySelector(".index-ul")
 var video = document.getElementById("video")
 var times=true
-function hide(){
+function hidemain(){
     if(times==true){
     circle.style.left="95%"
     navbar.style.left="95%"
