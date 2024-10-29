@@ -1,6 +1,6 @@
 var body = document.querySelector(".body");
 var circle=document.getElementById("Index-circle")
-var navbar=document.querySelector(".fa-bars")
+// var navbar=document.querySelector(".fa-bars")
 var nav_item=document.querySelector(".index-ul")
 var times=true
 function nav(){

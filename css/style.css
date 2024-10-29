@@ -156,6 +156,9 @@ body{
 .butten5{
     margin-left:5%;
 }
+.fa-bars{
+    display: none;
+}
 .fa-caret-left{
     position: fixed;
     top: 52%;
@@ -184,10 +187,3 @@ body{
     border-radius: 50px;
     
 }
-.fa-caret-left{
-    display: block;
-}
-.fa-bars{
-    display: none;
-}
-

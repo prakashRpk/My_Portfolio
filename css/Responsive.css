@@ -43,6 +43,7 @@
 }
 .fa-bars{
     position: absolute;
+    position: fixed;
     display: block;
     font-size: 30px;
     top: 20px;
