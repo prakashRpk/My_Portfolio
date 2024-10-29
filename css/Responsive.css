@@ -157,6 +157,21 @@ display: none;
     width: 100px;
     height: 250px;
 }
+.container .card .imgBX{
+    width: 250px;
+}
+.project .heading{
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.582);
+    z-index: 100;
+    width: 60%;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50px;
+    
+}
 
     /* ----------------------------------------------------------------------------------contact */
     .CONTACT{
@@ -177,9 +192,9 @@ display: none;
     .contact-tap button{
         border: none;
         margin-top: 25px;
-        width: 100%;
+        width: 80%;
         color: white;
-        background-color: #21283a;
+        background-color: var(--bg-color);
         padding: 10px;
     }
     .contact-lable label,.contact-input input{
@@ -200,7 +215,7 @@ display: none;
     }
     .contact-input textarea{
         margin-top: 15px;
-        background-color: #21283a;
+        background-color: var(--bg-color);
         outline: none;
         color: white;
         border-radius: 20px 0 0 20px;

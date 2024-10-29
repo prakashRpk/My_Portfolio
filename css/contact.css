@@ -1,10 +1,12 @@
 .CONTACT{
-    margin-top: 100px;
+padding-top: 50px;
     text-align: center;
     color: white;
     width: 1366px;
     height: 700px;
-    background-color: #21283a;
+}
+.CT{
+    height: 550px;
 }
 .contact-box{
     display: flex;
@@ -13,33 +15,35 @@
 }
 .contact-tap{
  color: black;
-    width: 400px;
-    height: 480px;
-    margin-top: 70px;
-    margin-left: 200px;
+ width: 350px;
+ height: 400px;
+    margin-top: 40px;
+    margin-left: 100px;
     background-color: white;
     border-radius: 50px;
 }
 .contact-tap h1{
+    font-size: 25px;
     margin-top: 20px;
     margin-left:20px ;
 }
 .contact-tap button{
     border: none;
     margin-top: 25px;
-    width: 100%;
+    border-radius: 20px;
+    width: 80%;
     color: white;
-    background-color: #21283a;
+    background-color: var(--bg-color);
     padding: 10px;
 }
 .contact-lable label,.contact-input input{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .contact-lable label{
     margin-left: 50px;
 }
 .contact-input{
-    margin-left: 50px;
+    margin-left: 20px;
     width: 100%;
 }
 .contact-lable{
@@ -48,23 +52,22 @@
     text-align: start;
 }
 .contact-input input{
-    margin-top: 30px;
-    background-color: #21283a;
+    margin-top: 20px;
+    background-color: var(--bg-color);
     outline: none;
     color: white;
     border-radius: 20px 0 0 20px;
     padding-right: 100px;
-    padding: 10px 15px 6px 6px; 
+    padding: 5px 6px 6px 6px; 
     border: 1px solid #21283a ;
 }
 .contact-input textarea{
     margin-top: 30px;
-    background-color: #21283a;
+    background-color: var(--bg-color);
     outline: none;
     color: white;
     border-radius: 20px 0 0 20px;
-    padding-right: 100px;
-    padding: 10px 20px 7px 7px; 
+    padding: 10px 10px 7px 7px; 
     border: none;
 }
 /* ____________________________________________________________________________________________________ */
@@ -72,20 +75,19 @@
 .contact-details{
     display: flex;
     text-align: start;
-    
-    color: black;
+    color: var(--text-black);
     flex-direction: column;
     justify-content: space-around;
     width: 40%;
     height: 400px;
-    margin-top: -450px;
+    margin-top: -400px;
     margin-left: 50%;
 }
 :where(.Call,.Gmail,.Address){
    background-color: white;
    padding: 10px;
    font-size: 25px;
-   width: 50px;
+   width: 400px;
    height: 50px;
    border-radius: 50px;
    text-align: center;
@@ -95,17 +97,13 @@
    overflow: hidden;
    cursor: pointer;
 }
-:where(.Call,.Gmail,.Address):hover{
-    width: 500px;
-    
-}
 :where(.Call,.Gmail,.Address) a{
     text-decoration: none;
-    color: #21283a;
+    color: var(--text-black);
     margin-left: 50px; 
 }
 :where(.Call,.Gmail,.Address) i{
-    color: #21283a;
+    color: var(--text-black);
     margin-left: 3px;
     margin-top: 3px;
 }

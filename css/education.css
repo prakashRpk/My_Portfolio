@@ -1,10 +1,9 @@
 .EDUCATION{
-    margin-top: 100px;
+    padding-top:30px ;
     text-align: center;
     color: white;
     width: 1366px;
     height: 650px;
-    background-color: #21283a;
 
 }
 .certificate{
@@ -24,7 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
 
 }
 .container{

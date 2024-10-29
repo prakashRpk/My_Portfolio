@@ -1,18 +1,22 @@
 .project{
-    margin-top: 100px;
-    text-align: center;
+    padding-top: 50px;
     color: white;
     width: 100%;
     height: 650px;
-    background-color: #21283a;
+}
+.PJ{
+    height: 550px;
 }
 .project .heading{
     position: absolute;
+    border-radius: 20px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.582);
     z-index: 100;
-    width: 100%;
+    width: 60%;
     margin-top: 20px;
+    text-align: center;
+    margin-left: 135px;
     
 }
 .carousel-inner img{
@@ -60,7 +64,7 @@
 }
 #carouselExampleCaptions{
     position: absolute;
-    margin-top: 150px;
+    margin-top: 100px;
     left:20%;
     width: 60%;
     height: 400px;
