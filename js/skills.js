@@ -2,7 +2,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 start()
   });
-//-------------------------------------------------------------------------------------------------------//
 function start() {
   const circles = document.querySelectorAll('.circle');
   circles.forEach(function(progress) {

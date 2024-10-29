@@ -59,7 +59,7 @@
         <div class="Index-circle" id="Index-circle"></div>
         <div class="navbar" onclick="hidemain()">
           <i class="fa-solid fa-caret-left"></i>
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars" onclick="nav()"></i>
         </div>
         <ul class="index-ul">
 
@@ -85,6 +85,7 @@
     </div>
     <div class="ABOUT" id="ABOUT">
      <h1 class="about-title">ABOUT</h1>
+     <div class="ab-screen">
      <h2 class="About-subTitle">Hello everyone</h2>
      <p class="About-p-tag">
       
@@ -101,6 +102,7 @@
       Thank you for your time, and I look forward to connecting with you all.
     </p>
     <button onclick="videoFun()">Self introduction</button>
+  </div>
     <div id="video">
       <iframe
         width="560"
@@ -121,44 +123,43 @@
         <i id="con-right" class="fa-solid fa-angle-right"></i>
         <div class="scroll-con" id="scroll-con">
           <div class="skills-container">
+
             <div class="circle" data-degree="80" data-color="white">
               <h2 class="number">80<span>%</span></h2>
-              <h4>html</h4>
+              <h4>HTML & CSS</h4>
             </div>
-            <div class="circle" data-degree="60" data-color="white">
-              <h2 class="number">60<span>%</span></h2>
-              <h4>css</h4>
-            </div>
+
             <div class="circle" data-degree="40" data-color="white">
               <h2 class="number">40<span>%</span></h2>
-              <h4>js</h4>
+              <h4>JavaScript</h4>
             </div>
+            
             <div class="circle" data-degree="65" data-color="white">
               <h2 class="number">65<span>%</span></h2>
-              <h4>C,C++</h4>
+              <h4>C++</h4>
             </div>
+
             <div class="circle" data-degree="80" data-color="white">
               <h2 class="number">80<span>%</span></h2>
               <h4>GitHub</h4>
             </div>
+
             <div class="circle" data-degree="80" data-color="white">
               <h2 class="number">50<span>%</span></h2>
               <h4>java</h4>
             </div>
+
             <div class="circle" data-degree="80" data-color="white">
               <h2 class="number">50<span>%</span></h2>
               <h4>SQL</h4>
             </div>
-            <div class="circle" data-degree="80" data-color="white">
-              <h2 class="number">80<span>%</span></h2>
-              <h4>MS office</h4>
-            </div>
+
           </div>
         </div>
       </div>
     </div>
     <div class="EDUCATION" id="EDUCATION">
-      <a href="" class="certificate">certificate</a>
+      <a href="./pdf/doc.pdf" class="certificate">certificate</a>
       <h1 class="edu-title">EDUCATION</h1>
       <div class="skills-taps">
         <div class="container">
@@ -631,18 +632,6 @@
         <i class="fa-solid fa-xmark"></i>
       </button>
     </div>
-    <footer></footer>
-    <div class="endline">
-      <p>
-        Icons By
-        <a href="https://cdnjs.com/libraries/font-awesome">font-awesome</a
-        >-Fonts By
-        <a href="https://fonts.google.com/">google-fonts</a>-Templates By<a
-          href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
-          >Bootstrap</a
-        >
-      </p>
-    </div>
   </body>
   <div id="scroll-path"></div>
   <div id="progress-ber"></div>
@@ -650,7 +639,7 @@
   <script src="js/scroll bar.js"></script>
   <script src="js/script.js"></script>
   <script src="js/map.js"></script>
-  <script src="js/responsive.js"></script>
+  <!-- <script src="js/responsive.js"></script> -->
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

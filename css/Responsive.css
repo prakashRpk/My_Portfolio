@@ -1,17 +1,16 @@
 @media (max-width: 720px) { 
     /* ------------------------------------------------------------index */
     .Index{
-        position: absolute;
         background-image: url("../img/my\ img\ 2.jpg");
         width: 100%;
-        height: 150%;
+        height: 650px;
  }
  .trans{
     height: 100%;
 }
  .Index-headTitle-1{
     font-size: 70%;
-    margin-top: 100%;
+    margin-top: 60%;
 }
 .Index-headTitle-2{
     font-size: 200%;
@@ -77,11 +76,31 @@
     height: 30px;
     font-size: 35px;
 }
+   /* --------------------------------------------------------About */
+   .ABOUT{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+.about-title{
+    margin-bottom: 50px;
+}
+.ABOUT button{
+    padding: 5px 10px;
+    width: 100px;
+    font-size: 10px;
+    border-radius: 50px;
+    margin-top: -35px;
+    margin-left: 10px;
+}
+.ab-screen{
+    padding: 5px 0px;
+    padding-bottom: 20px;
+
+}
   /* ------------------------------------------------------------skills */
   .SKILLS{
-    position: absolute;
     height: 100%;
-    margin-top: 150%;
 }
 .skills-container .circle{
     width: 150px;
@@ -106,29 +125,27 @@ display: none;
 }
    /* -----------------------------------------------------------------------------education */
 .EDUCATION{
-    position: absolute;
-    margin-top: 500%;
     width: 100%;
     height: 650px;
 }
 .skills-taps{
     display: block;
+    margin-top: 200px;
 }
+
   /* ----------------------------------------------------------------------------------project */
   .project{
-    position: absolute;
-    margin-top: 730%;
+    margin-top: 750px;
     width: 100%;
     height: 650px;
 }
 .carousel-inner img{
     width: 100px;
-    height: 350px;
+    height: 250px;
 }
+
     /* ----------------------------------------------------------------------------------contact */
     .CONTACT{
-        position: absolute;
-        margin-top: 830%;
         color: white;
         width: 100%;
         height: 200%;
@@ -139,6 +156,18 @@ display: none;
     .contact-details{
         margin-top: 100px;
         margin-left: 20%;
+        height: 200px;
+        margin-bottom: 100px;
+
+    }
+    :where(.Call,.Gmail,.Address){
+        width: 300px;
+        font-size: 15px;  
+        padding: 5px;
+        height: 30px;
+    }
+    :where(.Call,.Gmail,.Address) a{
+        margin-left: 20px; 
     }
     /* -----------------------------------------------------------------------------------footer */
     .endline{
@@ -154,10 +183,11 @@ body{
 width: 370px;
 height: 100%;
 overflow-x: hidden;
-background-color: blue;
+background-color:#21283a ;
 
 }
 .Index{
+    margin-top: 800px;
         position: absolute;
         background-image: url("../img/my\ img\ 2.jpg");
         width: 100%;
@@ -181,18 +211,19 @@ background-color: blue;
     font-size: 60%;
     width: 80%;
 }
-.Index-circle{  
-    position: fixed;
-    top: 0%;
-    left: 55%;
+.Index-circle{ 
+    display: none;
+    margin-top: -150px;
+    margin-left: -500px;
     border-radius: 1px;
     width: 300px;
-    height: 670px;
+    height: 370px;
 }
 .index-ul{
-    top: 10%;
-    left: 30%;
-    font-size: 10px;
+    display: none;
+    margin-top: -100px;
+    margin-left: -380px;
+    font-size: 15px;
 }
 .index-ul button{
     padding: 5px 20px;
@@ -230,11 +261,11 @@ background-color: blue;
 }
 .navbar{
     position: fixed;
-    top: 28%;
-    left: 58%;
-    width: 10px;
-    height: 10px;
-    font-size: 35px;
+    top: 18%;
+    left: 48%;
+    width: 100px;
+    height: 100px;
+    font-size: 45px;
 }
 .fa-caret-left{
     display: none;
@@ -242,9 +273,19 @@ background-color: blue;
 .fa-bars{
     position: fixed;
     display: block;
-    margin-top: -600px;
-    margin-left: -300px;
+    margin-top: -300px;
+    margin-left: -250px;
+    font-size: 40px;
+    color: white;
 }
+  /*------------------------------------------------------------about*/
+  /* .ABOUT{
+    margin-top: 600px;
+  }   */
+  .About-p-tag{
+        font-size: 10px;
+    }
+
   /* ------------------------------------------------------------skills */
   .SKILLS{
     position: absolute;
