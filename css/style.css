@@ -156,10 +156,10 @@ body{
 .butten5{
     margin-left:5%;
 }
-.navbar{
+.fa-caret-left{
     position: fixed;
-    top: 50%;
-    left: 85%;
+    top: 52%;
+    left: 86%;
     width: 60px;
     height: 60px;
     border-radius: 50%;
