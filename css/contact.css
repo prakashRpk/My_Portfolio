@@ -15,10 +15,10 @@ padding-top: 50px;
 }
 .contact-tap{
  color: black;
- width: 400px;
+ width: 480px;
  height: 400px;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 80px;
     background-color: white;
     border-radius: 20px;
 }
@@ -67,7 +67,7 @@ padding-top: 50px;
     outline: none;
     color: white;
     border-radius: 10px;
-    padding: 10px 10px 7px 7px; 
+    padding: 15px 18px 7px 7px; 
     border: none;
 }
 /* ____________________________________________________________________________________________________ */
@@ -81,7 +81,7 @@ padding-top: 50px;
     width: 40%;
     height: 400px;
     margin-top: -400px;
-    margin-left: 50%;
+    margin-left: 55%;
 }
 :where(.Call,.Gmail,.Address){
    background-color: white;
