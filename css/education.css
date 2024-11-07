@@ -18,6 +18,7 @@
     border-radius: 20px;
     background-color: white;
     color: #21283a;
+    z-index: 1000;
 }
 .skills-taps{
     display: flex;
